@@ -2,8 +2,6 @@
 
 #Go through the file showing an index counter and the country
 
-#Go through the file showing an index counter, name, city and the country, but without the header and blanks lines this time
-
 IFS='\t'
 
 index=0
