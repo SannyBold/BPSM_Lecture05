@@ -52,7 +52,7 @@ do
                 echo -e "$index" "$name" "$country"
         fi
 
-done < example_people_data.tsv
+done > example_people_data.tsv
 
 #Work out how many people were born in October, and where are they from, output as multiple lists
 
@@ -68,5 +68,5 @@ do
                 printf "%s\t%s\t%s" "$index" "$name" "$country" >> "$country.list"
         fi
 
-done < example_people_data.tsv 
+done > example_people_data.tsv 
 
