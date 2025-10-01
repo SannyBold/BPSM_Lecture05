@@ -2,7 +2,7 @@
 
 #Go through the file showing an index counter and the country
 
-IFS='\t'
+IFS=$'\t'
 
 index=0
 while read name email city birth_day birth_month birth_year country
